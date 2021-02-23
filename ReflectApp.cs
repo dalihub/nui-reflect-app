@@ -19,7 +19,6 @@ using System.Reflection;
 using System.Runtime.InteropServices;
 using System.Linq;
 using Tizen.NUI;
-using Tizen.NUI.UIComponents;
 using Tizen.NUI.BaseComponents;
 using Tizen.NUI.Constants;
 
