@@ -170,6 +170,7 @@ namespace GetSyms
             System.Reflection.TypeInfo typeInfo = type.GetTypeInfo();
             if( typeInfo.BaseType != typeof(System.MulticastDelegate) &&
                 typeInfo.BaseType != typeof(System.EventArgs) &&
+                typeInfo.Namespace != null &&
                 typeInfo.Namespace.StartsWith( "Tizen.NUI" ) )
             {
                 if( typeInfo.IsEnum )
