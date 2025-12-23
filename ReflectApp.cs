@@ -178,10 +178,6 @@ namespace GetSyms
                     WriteEnum( type, null );
                     return;
                 }
-                if( type.Name == "Vector2" )
-                {
-                    var x=1;
-                }
                 var staticMethodInfos = type.GetMethods(BindingFlags.Public|BindingFlags.Static|BindingFlags.DeclaredOnly);
                 var instanceMethodInfos = type.GetMethods(BindingFlags.Public|BindingFlags.Instance|BindingFlags.DeclaredOnly);
 
